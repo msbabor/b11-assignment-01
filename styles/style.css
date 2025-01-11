@@ -55,6 +55,7 @@ button:hover{
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
+    margin-top: 16px;
 }
 .btn-primary{
     width: 270px;
@@ -67,6 +68,7 @@ button:hover{
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
+    margin-top: 24px;
 }
 .hero-image{
     width: 474.03px;
