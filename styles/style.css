@@ -184,7 +184,7 @@ button:hover{
     line-height: 24px;
     margin-top: 12px;
 }
-.title{
+.name-title{
     color: rgba(14, 14, 14, 0.6);
     font-size: 16px;
     font-weight: 400;
@@ -192,3 +192,69 @@ button:hover{
     margin-top: 5px;
 }
 /* future style end */
+
+/* recent news style start */
+#recent-news{
+    width: 1280px;
+    height: 1406px;
+    gap: 32;
+    margin-top: 80px;
+}
+.news-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.news-sub-title{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.news-container{
+    width: 1280px;
+    height: 402px;
+    display: flex;
+    align-items: center;
+    gap: 32;
+    padding: 48px;
+    margin-top: 24px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+.satelite-image{
+    background-image: url('../assets/satelite.png');
+    width: 408px;
+    height: 306px;
+    margin: 0px 32px;
+    border-radius: 24px;
+}
+.news-deteils{
+    width: 744px;
+    height: 290px;
+}
+.satelite-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 12px;
+}
+.container-sub-title{
+    margin-top: 12px;
+}
+.recent-news-btn{
+    width: 139px;
+    height: 48px;
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+/* recent news style end */
+
